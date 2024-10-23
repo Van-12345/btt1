@@ -1,0 +1,74 @@
+/* Slideshow.css */
+
+.container {
+    text-align: center;
+    margin: 20px auto;
+    background-color: #45c6c6; /* Teal color */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .fullscreen {
+    text-align: center;
+    margin: 20px auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: #5fd6f0; /* Teal color for fullscreen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-pink {
+    background-color: #f7a664; 
+    padding: 10px 20px; 
+    margin: 10px;
+    border-radius: 25px; 
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(238, 229, 229);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .button-pink:hover {
+    background-color: #c84316; 
+    transform: scale(1.05);
+  }
+  
+  img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  .thumbnail {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .thumbnail img {
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .thumbnail img:hover {
+    transform: scale(1.1);
+  }
+  
+  .progress-bar {
+    height: 5px;
+    background-color: #61dafb;
+    margin: 10px 0;
+    transition: width 0.3s;
+  }
+  
